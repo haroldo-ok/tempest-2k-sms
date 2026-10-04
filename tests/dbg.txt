@@ -1,0 +1,21 @@
+symbols build/code.noi
+run 90
+tap 1
+run 20
+tap 1
+waituntil gstate == 2 60 w1
+run 60
+print dbg_a w1
+print dbg_b w1
+print dbg_c w1
+print dbg_frames w1
+run 1
+print dbg_a w1
+print dbg_b w1
+print dbg_c w1
+print dbg_frames w1
+run 1
+print dbg_a w1
+print dbg_b w1
+print dbg_c w1
+print dbg_frames w1

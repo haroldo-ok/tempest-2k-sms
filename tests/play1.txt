@@ -1,0 +1,23 @@
+symbols build/code.noi
+run 90
+tap 1
+run 30
+expect gstate == 1 w1
+screenshot shots/select.ppm
+tap 1
+waituntil gstate == 2 60 w1
+run 30
+screenshot shots/warp_mid.ppm
+waituntil gstate == 3 400 w1
+print gstate_t w2
+run 2
+screenshot shots/play_start.ppm
+run 200
+screenshot shots/play_200.ppm
+print enemies_alive w1
+print lives w1
+hold 1
+run 300
+screenshot shots/play_fire.ppm
+print score w2
+hold none

@@ -1,0 +1,22 @@
+symbols build/code.noi
+run 90
+screenshot shots/t_title.ppm
+tap 1
+run 20
+tap 1
+waituntil gstate == 3 400 w1
+echo stand still without firing until a flipper reaches us
+waituntil gstate == 4 3000 w1
+screenshot shots/t_died.ppm
+expect lives == 2 w1
+waituntil gstate == 3 200 w1
+waituntil gstate == 4 3000 w1
+waituntil gstate == 3 200 w1
+waituntil gstate == 4 3000 w1
+expect lives == 0 w1
+waituntil gstate == 6 200 w1
+screenshot shots/t_gameover.ppm
+waituntil gstate == 0 400 w1
+run 60
+screenshot shots/t_title2.ppm
+expectvdp display 1

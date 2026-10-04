@@ -1,0 +1,19 @@
+symbols build/code.noi
+run 90
+tap 1
+run 20
+tap 1
+waituntil gstate == 2 60 w1
+print fmv_frames w1
+run 20
+print fmv_frames w1
+run 20
+print fmv_frames w1
+run 20
+print fmv_frames w1
+run 20
+print fmv_frames w1
+run 20
+print fmv_frames w1
+run 20
+print fmv_frames w1

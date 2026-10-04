@@ -1,0 +1,14 @@
+symbols build/code.noi
+run 90
+tap 1
+run 20
+tap 1
+waituntil gstate == 3 400 w1
+run 300
+print dbg_frames w1
+run 100
+print dbg_frames w1
+cgstart
+run 60
+cgstop
+cgdump /tmp/cg2.out

@@ -1,0 +1,19 @@
+symbols build/code.noi
+psglog /tmp/psg_title.log
+run 1200
+psgstop
+tap 1
+run 20
+tap 1
+psglog /tmp/psg_play.log
+waituntil gstate == 3 400 w1
+hold 1+left
+run 400
+hold 1
+run 300
+tap 2
+run 200
+hold 1+right
+run 300
+psgstop
+hold none

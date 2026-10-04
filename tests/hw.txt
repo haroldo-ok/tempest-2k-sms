@@ -1,0 +1,39 @@
+symbols build/code.noi
+run 90
+tap 1
+run 20
+tap 1
+waituntil gstate == 3 400 w1
+hold 1+left
+run 300
+echo pause / unpause
+pause
+run 5
+expect gstate == 7 w1
+screenshot shots/paused.ppm
+run 60
+expect gstate == 7 w1
+pause
+run 5
+expect gstate == 3 w1
+echo spike in the player lane kills on the dive
+hold none
+print player_lane w1
+print lives w1
+poke 0xC3C2 3072
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+run 30
+screenshot shots/zoom_spike.ppm
+waituntil gstate == 2 900 w1
+print lives w1
+waituntil gstate == 3 900 w1
+expectpace 0
+spmin

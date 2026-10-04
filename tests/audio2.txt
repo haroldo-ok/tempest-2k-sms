@@ -1,0 +1,43 @@
+symbols build/code.noi
+run 90
+tap 1
+run 20
+tap 1
+waituntil gstate == 3 400 w1
+poke level 16 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+poke lives 9 w1
+waituntil gstate == 2 900 w1
+psglog /tmp/psg_levelB.log
+waituntil gstate == 3 900 w1
+run 1500
+psgstop
+poke level 32 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+poke lives 9 w1
+waituntil gstate == 2 900 w1
+psglog /tmp/psg_levelC.log
+waituntil gstate == 3 900 w1
+run 1500
+psgstop
+poke lives 1 w1
+psglog /tmp/psg_gameover.log
+waituntil gstate == 6 3000 w1
+run 200
+psgstop

@@ -1,0 +1,726 @@
+symbols build/code.noi
+run 90
+tap 1
+run 20
+tap 1
+waituntil gstate == 3 400 w1
+poke 0xC115 1 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 2 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv02.ppm
+poke 0xC115 2 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 3 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv03.ppm
+poke 0xC115 3 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 4 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv04.ppm
+poke 0xC115 4 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 5 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv05.ppm
+poke 0xC115 5 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 6 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv06.ppm
+poke 0xC115 6 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 7 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv07.ppm
+poke 0xC115 7 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 8 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv08.ppm
+poke 0xC115 8 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 9 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv09.ppm
+poke 0xC115 9 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 10 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv10.ppm
+poke 0xC115 10 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 11 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv11.ppm
+poke 0xC115 11 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 12 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv12.ppm
+poke 0xC115 12 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 13 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv13.ppm
+poke 0xC115 13 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 14 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv14.ppm
+poke 0xC115 14 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 15 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv15.ppm
+poke 0xC115 15 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 16 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv16.ppm
+poke 0xC115 16 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 17 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv17.ppm
+poke 0xC115 17 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 18 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv18.ppm
+poke 0xC115 18 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 19 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv19.ppm
+poke 0xC115 19 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 20 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv20.ppm
+poke 0xC115 20 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 21 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv21.ppm
+poke 0xC115 21 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 22 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv22.ppm
+poke 0xC115 22 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 23 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv23.ppm
+poke 0xC115 23 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 24 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv24.ppm
+poke 0xC115 24 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 25 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv25.ppm
+poke 0xC115 25 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 26 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv26.ppm
+poke 0xC115 26 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 27 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv27.ppm
+poke 0xC115 27 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 28 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv28.ppm
+poke 0xC115 28 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 29 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv29.ppm
+poke 0xC115 29 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 30 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv30.ppm
+poke 0xC115 30 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 31 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv31.ppm
+poke 0xC115 31 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 32 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv32.ppm
+poke 0xC115 32 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 33 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv33.ppm
+poke 0xC115 33 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 34 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv34.ppm
+poke 0xC115 34 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 35 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv35.ppm
+poke 0xC115 35 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 36 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv36.ppm
+poke 0xC115 36 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 37 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv37.ppm
+poke 0xC115 37 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 38 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv38.ppm
+poke 0xC115 38 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 39 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv39.ppm
+poke 0xC115 39 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 40 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv40.ppm
+poke 0xC115 40 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 41 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv41.ppm
+poke 0xC115 41 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 42 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv42.ppm
+poke 0xC115 42 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 43 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv43.ppm
+poke 0xC115 43 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 44 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv44.ppm
+poke 0xC115 44 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 45 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv45.ppm
+poke 0xC115 45 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 46 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv46.ppm
+poke 0xC115 46 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 47 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv47.ppm
+poke 0xC115 47 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 48 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv48.ppm
+poke 0xC115 48 w1
+poke 0xC3DC 0 w1
+poke 0xC3DD 0 w1
+poke 0xC3DE 0 w1
+poke 0xC3DF 0 w1
+poke 0xC3E0 0 w1
+poke 0xC3E1 0 w1
+poke 0xC3E2 0 w1
+tap 2
+waituntil gstate == 5 900 w1
+waituntil gstate == 2 900 w1
+expect level == 49 w1
+waituntil gstate == 3 900 w1
+run 4
+screenshot shots/lv49.ppm

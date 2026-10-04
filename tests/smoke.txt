@@ -1,0 +1,8 @@
+symbols build/code.noi
+run 120
+expectvdp display 1
+print gstate w1
+screenshot shots/title_a.ppm
+run 60
+screenshot shots/title_b.ppm
+expectcolors 3
